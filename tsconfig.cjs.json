@@ -2,8 +2,9 @@
   "extends": "./tsconfig.es.json",
   "compilerOptions": {
     "noEmit": false,
-    "module": "ESNext",
-    "target": "ESNext",
-    "declaration": true
+    "module": "CommonJS",
+    "target": "ES5",
+    "declaration": true,
+    "sourceMap": true
   }
 }
