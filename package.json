@@ -1,0 +1,24 @@
+{
+  "name": "@topsoft4u/tsconfig",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "description": "Shareable TypeScript project configuration",
+  "main": "tsconfig.es.json",
+  "files": [
+    "tsconfig.es.json",
+    "tsconfig.cjs.json"
+  ],
+  "repository": "git://github.com/TopSoft4U/tsconfig.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Łukasz Kolasa",
+  "keywords": [
+    "tsc",
+    "tsconfig",
+    "typescript"
+  ],
+  "scripts": {
+    "postpublish": "git push --all origin -u && git push --tags origin"
+  }
+}
