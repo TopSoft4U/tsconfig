@@ -1,7 +1,7 @@
 {
   "name": "@topsoft4u/tsconfig",
   "license": "UNLICENSED",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable TypeScript project configuration",
   "main": "tsconfig.es.json",
   "files": [
