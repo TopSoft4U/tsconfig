@@ -19,6 +19,6 @@
     "typescript"
   ],
   "scripts": {
-    "postpublish": "git push --all origin -u && git push --tags origin"
+    "postversion": "git push --tags && yarn publish . --tag $npm_package_version && git push"
   }
 }
