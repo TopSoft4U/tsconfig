@@ -1,11 +1,12 @@
 {
   "name": "@topsoft4u/tsconfig",
+  "private": true,
   "license": "UNLICENSED",
   "version": "1.0.4",
   "description": "Shareable TypeScript project configuration",
-  "main": "tsconfig.es.json",
+  "main": "tsconfig.json",
   "files": [
-    "tsconfig.es.json",
+    "tsconfig.json",
     "tsconfig.cjs.json"
   ],
   "repository": "git://github.com/TopSoft4U/tsconfig.git",
