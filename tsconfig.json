@@ -22,6 +22,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strictPropertyInitialization": false,
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "declaration": true
   }
 }
