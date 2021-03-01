@@ -19,6 +19,8 @@
     "typescript"
   ],
   "scripts": {
+    "deps:check": "npx npm-check-updates --dep prod,dev,optional",
+    "deps:update": "npx npm-check-updates --dep prod,dev,optional -u",
     "postversion": "git push --tags && yarn publish . --tag $npm_package_version && git push"
   }
 }
