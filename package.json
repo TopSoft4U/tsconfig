@@ -1,26 +1,38 @@
 {
   "name": "@topsoft4u/tsconfig",
-  "license": "UNLICENSED",
-  "version": "1.0.6",
   "description": "Shareable TypeScript project configuration",
+  "version": "1.0.6",
   "main": "tsconfig.json",
   "files": [
     "tsconfig.json",
     "tsconfig.cjs.json"
   ],
-  "repository": "git://github.com/TopSoft4U/tsconfig.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "repository": "https://github.com/TopSoft4U/tsconfig",
+  "homepage": "https://github.com/TopSoft4U/tsconfig",
+  "bugs": {
+    "url": "https://github.com/TopSoft4U/tsconfig/issues"
   },
-  "author": "Łukasz Kolasa",
+  "license": "MIT",
   "keywords": [
+    "TopSoft4U",
     "tsc",
     "tsconfig",
     "typescript"
   ],
+  "author": {
+    "name": "Łukasz Kolasa",
+    "email": "lukasz.kolasa@topsoft4u.com",
+    "url": "https://topsoft4u.com/"
+  },
+  "contributors": [
+    {
+      "name": "Łukasz Kolasa",
+      "email": "lukasz.kolasa@topsoft4u.com",
+      "url": "https://topsoft4u.com/"
+    }
+  ],
   "scripts": {
     "deps:check": "npx npm-check-updates --dep prod,dev,optional",
-    "deps:update": "npx npm-check-updates --dep prod,dev,optional -u",
-    "postversion": "git push --tags && yarn publish . --tag $npm_package_version && git push"
+    "deps:update": "npx npm-check-updates --dep prod,dev,optional -u"
   }
 }
