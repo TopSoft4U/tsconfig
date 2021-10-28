@@ -32,6 +32,7 @@
     }
   ],
   "scripts": {
+    "clean": "rimraf --no-glob ./dist",
     "deps:check": "npx npm-check-updates --dep prod,dev,optional",
     "deps:update": "npx npm-check-updates --dep prod,dev,optional -u"
   }
